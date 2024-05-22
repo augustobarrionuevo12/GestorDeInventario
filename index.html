@@ -42,14 +42,24 @@
         </div>
     </div>
     
-    <div id="categorias" class="categorias-container">
-       
+    <div id="categorias" class="categorias-container"></div>
+
+    <div class="busqueda">
+        <input type="text" id="buscarNombre" placeholder="Buscar por nombre">
+        <select id="buscarCategoria">
+            <option value="">Todas las categorías</option>
+            <option value="Vehículos">Vehículos</option>
+            <option value="Repuestos">Repuestos</option>
+            <option value="Electrónica">Electrónica</option>
+            <option value="Articulos de limpieza">Artículos de limpieza</option>
+            <option value="Herramientas">Herramientas</option>
+            <option value="Varios">Varios</option>
+        </select>
+        <button id="buscar">Buscar</button>
     </div>
 
     <h2 class="subtituloIndex">Inventario</h2>
-    <ol id="inventario">
-       
-    </ol>
+    <ol id="inventario"></ol>
 
     <script src="./js/main.js"></script>
     <script src="./js/productos.js"></script>

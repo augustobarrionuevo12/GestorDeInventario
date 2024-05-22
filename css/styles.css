@@ -2,85 +2,69 @@
     margin: 0;
     padding: 0;
 }
-.inventario{
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
 body{
-    background-color: rgb(165, 228, 141);
-    background-color: rgb(143, 155, 231);
     background: linear-gradient(to bottom right, #4da36a, #000000);
+    font-family: Arial, sans-serif;
 }
 .inventarioBotones{
     display: block;
     background-color: rgba(0, 0, 0, 0.195);
     border-radius: 10px;
     font-size: 25px;
-    
-}
-.inventarioBotones {
-    border: 1px solid #ccc; 
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    background-color: #fff; 
-}
-.inventarioBotones {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between;
-    align-items: center; 
-}
-
-
-.container {
-    width: 50%; 
-    margin: 40px auto;
-}
-
-
-.inventarioBotones {
+    background-color: #fff;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+}
+.container {
+    width: 50%;
+    margin: 40px auto;
 }
 .tituloIndex{
     text-align: center;
     margin: 40px;
     font-size: 60px;
+    color: white;
 }
 .subtituloIndex{
     text-align: center;
     margin: 40px;
-
+    color: white;
 }
-.inventario{
-    text-align: center;
-}
-
 .categoria-card {
-    background-color: #f0f0f0; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     margin-bottom: 20px;
     text-align: center;
     margin: 40px;
 }
-
 .categoria-card img {
     max-width: 200px;
-    border-radius: 50%; 
-    margin-bottom: 10px; 
+    border-radius: 50%;
+    margin-bottom: 10px;
     max-height: 150px;
 }
 .btn-eliminar {
     background-color: #ff0000;
-    color: #fff; 
-    border: none; 
-    border-radius: 50%; 
-    padding: 5px 8px; 
-    cursor: pointer; 
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px 8px;
+    cursor: pointer;
 }
-
+.busqueda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.busqueda input, .busqueda select, .busqueda button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
